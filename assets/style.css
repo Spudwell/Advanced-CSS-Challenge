@@ -11,7 +11,7 @@ body {
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
+    background-color: #0a1921;
     color: #ffffff;
 }
 /* addresses properties for the main header .*/
@@ -74,16 +74,8 @@ p {
     margin-left: 20px;
 }
 /* describes the three main boxes*/
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-}
+
+
 /* describes the main box to the right*/
 .benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
@@ -105,13 +97,22 @@ p {
 
 /* consolidated lead/brand/benefit cost img*/
 
-.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+.search-engine-optimization, .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+    color: #0b1563;
+}
+
+.social-media-marketing {
+    margin-top: 550px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #0b1563;
+    
+    
 }
 
 /*consolidated the text properties*/
@@ -140,9 +141,10 @@ p {
 /* footer font size*/
 .mainimage {
 background-position: center;
-max-width: 60%;
-margin-top: 10px;
-
+max-width: 40%;
+margin-top: 30px;
+margin-left: 30px;
+margin-right: 30px;
 } 
 /* class for the image to adjust properties.*/
 
@@ -159,10 +161,10 @@ box code and stylign starts here!!!
 
 /* color scheme sourced from http://khroma.co/generator/ */
 :root {
-    --outer-space: #33393f;
+    --outer-space: #b7bbbf;
     --bright-turquoise: #2aefcb;
     --gin: #e0eae4;
-    --heliotrope: #e866ec;
+    --heliotrope: #20213e;
   }
   
   /* set content highlight color and background */
