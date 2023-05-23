@@ -3,6 +3,13 @@
     padding: 0;
     margin: 0;
 }
+
+:root {
+  --outer-space: #b7bbbf;
+  --bright-turquoise: #2aefcb;
+  --gin: #e0eae4;
+  --heliotrope: #20213e;
+}
 /* universal selector, adds border-box to page and padding/marign to 0 .*/
 
 /* makes the background color of the body of the page, white. .*/
@@ -121,12 +128,7 @@ box code and stylign starts here!!!
 
 
 /* color scheme sourced from http://khroma.co/generator/ */
-:root {
-    --outer-space: #b7bbbf;
-    --bright-turquoise: #2aefcb;
-    --gin: #e0eae4;
-    --heliotrope: #20213e;
-  }
+
   
   /* set content highlight color and background */
   ::selection {
