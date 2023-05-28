@@ -11,6 +11,14 @@
   --heliotrope: #20213e;
 }
 
+.headerbox {
+  border: solid;
+  background-color: #225d7c;
+  padding-right: 10px;
+  padding-left: 80px;
+  text-align: left;
+}
+
 .header {
   padding: 30px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -43,6 +51,8 @@
   border-width: 10px;
   border-style: double;
   text-align: end;
+  background-color: #0a1921;
+  padding: 10px;
 }
 
 .nav-buttons {
@@ -97,23 +107,6 @@
   display: flex;
 }
 
-.contact-me-header {
-  margin-right: 50px;
-  border-right: 6px solid rgb(29, 17, 88);
-  padding-right: 15px;
-}
-
-.contactme {
-  margin-top: 200px;
-  padding: 50px;
-  height: 300px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  color: #0b1563;
-  display: inline-flex;
-  height: 300px;
-  margin-left: 0px;
-}
-
 a {
   color: #ffffff;
   text-decoration: none;
@@ -131,14 +124,6 @@ p {
 .float-right {
   float: right;
   margin-left: 25px;
-}
-
-.contactme {
-  margin-bottom: 20px;
-  font-size: 30px;
-  display: flex;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  color: #0a1921;
 }
 
 ::selection {
@@ -203,14 +188,6 @@ code {
     monospace;
 }
 
-.footer {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  width: 100vw;
-  text-align: center;
-  padding: 1rem;
-}
-
 .VLAboutme {
   border-right: 6px solid rgb(29, 17, 88);
   height: 500px;
@@ -246,6 +223,18 @@ code {
 
 .main-project-card:hover {
   box-shadow: inset 0px 0px 8px var(--heliotrope), 0 0 15px var(--heliotrope);
+}
+
+.maincardheader {
+  position: relative;
+  margin: 20rem 140rem 0rem 0rem;
+  padding: 0.5rem 1rem;
+  background-color: var(--outer-space);
+  color: var(--heliotrope);
+  border: 2px solid var(--gin);
+  border-radius: 8px;
+  transition: all 0.5s ease-in-out;
+  justify-content: flex-end;
 }
 
 .cards-container {
@@ -301,18 +290,6 @@ code {
   justify-content: flex-end;
 }
 
-.maincardheader {
-  position: relative;
-  margin: 20rem 140rem 0rem 0rem;
-  padding: 0.5rem 1rem;
-  background-color: var(--outer-space);
-  color: var(--heliotrope);
-  border: 2px solid var(--gin);
-  border-radius: 8px;
-  transition: all 0.5s ease-in-out;
-  justify-content: flex-end;
-}
-
 /* set an outer and inner drop shadow on the card to create a glowing effect on hover */
 .code-card:hover,
 .code-card:hover .card-header {
@@ -328,6 +305,39 @@ code {
   border-radius: 8px;
   background-image: linear-gradient(#225d7c 0%, #0a1921 100%);
   align-items: center;
+}
+
+.contactme {
+  margin-bottom: 20px;
+  font-size: 30px;
+  display: flex;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #0a1921;
+}
+
+.contact-me-header {
+  margin-right: 50px;
+  border-right: 6px solid rgb(29, 17, 88);
+  padding-right: 15px;
+}
+
+.contactme {
+  margin-top: 200px;
+  padding: 50px;
+  height: 300px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #0b1563;
+  display: inline-flex;
+  height: 300px;
+  margin-left: 0px;
+}
+
+.footer {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  width: 100vw;
+  text-align: center;
+  padding: 1rem;
 }
 
 @media screen and (min-width: 768px) {
