@@ -1,6 +1,6 @@
 # Advanced-CSS-Challenge
 
-## Portfolio Page 
+## Portfolio Page
 
 Build an HTML page that meets the acceptance criteria, and matches the mock template provided.
 
@@ -11,6 +11,13 @@ Build an HTML page that meets the acceptance criteria, and matches the mock temp
 ## Usage
 
 Repository is public, download public repo from github to examine HTML and .CSS pages.
+Link to repository supplied below
+https://spudwell.github.io/Portfolio-Page/
+
+'''md
+![Base Screenshot](assets/images/Readmepic.png)
+'''
 
 ## Credits
+
 U of R Bootcamp code from previous projects, one tudoring session used.
